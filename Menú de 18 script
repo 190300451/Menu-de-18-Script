@@ -1,0 +1,72 @@
+#!/bin/bash
+
+vis(){
+
+echo "--------------------------------"
+echo "|                              |"
+echo "|                              |"
+echo "|                              |"
+echo "|  1.aritmetica.sh             |"
+echo "|  2.arrays.sh                 |"
+echo "|  3.case.sh                   |"
+echo "|  4.colores.sh                |"
+echo "|  5.comprobaciones.sh         |"
+echo "|  6.condicionales.sh          |"
+echo "|  7.funciones.sh              |"
+echo "|  8.holamundo.sh              |"
+echo "|  9.holamundovaria.sh         |"
+echo "|  10.iteraciones.sh           |"
+echo "|  11.librerias.sh             |"
+echo "|  12.logicas.sh               |"
+echo "|  13.otrosusos.sh             |"
+echo "|  14.select.sh                |"
+echo "|  15.senales.sh               |"
+echo "|  16.until.sh                 |"
+echo "|  17.variable.sh              |"
+echo "|  18.while.sh                 |"
+echo "|  19.salir                    |"
+echo "|                              |"
+echo "|                              |"
+echo "|                              |"
+echo "--------------------------------"
+
+}
+
+        editor=vim
+        passwd=/etc/passwd
+        red='\033[0;41;30m'
+        std='\033[0;0;39m'
+
+
+        echo "Bienvenido Inge, ¿Ingrese su nombre?"
+        read nombre
+
+        echo "Hola inge $nombre"
+
+        while true
+
+        do
+        
+        1)cd /home/leonardo/crash && ./aritmetica.sh && sleep 2 && clear;;
+        2)cd /home/leonardo/crash && ./arrays.sh && sleep 2 && clear;;
+        3)cd /home/leonardo/crash && ./case.sh && sleep 2 && clear;;
+        4)cd /home/leonardo/crash && ./colores.sh && sleep 2 && clear;;
+        5)cd /home/leonardo/crash && ./comprobaciones.sh && sleep 2 && clear;;
+        6)cd /home/leonardo/crash && ./condicionales.sh && sleep 2 && clear;;
+        7)cd /home/leonardo/crash && ./funciones.sh && sleep 2 && clear;;
+        8)cd /home/leonardo/crash && ./holamundo.sh && sleep 2 && clear;;
+        9)cd /home/leonardo/crash && ./holamundovaria.sh && sleep 2 && clear;;
+        10)cd /home/leonardo/crash && ./iteraciones.sh && sleep 2 && clear;;
+        11)cd /home/leonardo/crash && ./librerias.sh && sleep 2 && clear;;
+        12)cd /home/leonardo/crash && ./logicas.sh && sleep 2 && clear;;
+        13)cd /home/leonardo/crash && ./otrosusos.sh && sleep 1 && clear;;
+        14)cd /home/leonardo/crash && ./select.sh && sleep 2 && clear;;
+        15)cd /home/leonardo/crash && ./senales.sh && sleep 2 && clear;;
+        16)cd /home/leonardo/crash && ./until.sh && sleep 2 && clear;;
+        17)cd /home/leonardo/crash && ./variable.sh && sleep 2 && clear;;
+        18)cd /home/leonardo/crash && ./while.sh && sleep 2 && clear;;
+        19)echo "Nos vemos carnal" && sleep 1 && clear && exit 0;;
+        *)echo "El numero que ingreso no se encuentra, ingrese un numero que aparece en pantalla."
+
+        esac
+        done
